@@ -1,36 +1,18 @@
-# filepath: features/steps/crear_historia_steps.py
 from behave import given, when, then
-from flask import Flask
-from flask.testing import FlaskClient
 
-@given('que estoy en la página de creación de una nueva historia clínica')
-def step_impl(context):
-    context.client = FlaskClient(Flask(__name__))
-    context.response = context.client.get('/nueva_historia')
-    assert context.response.status_code == 200
+# Variables globales para los números y el resultado
+numeros = {}
+resultado = None
 
-@when('completo el formulario con los datos requeridos')
-def step_impl(context):
-    context.form_data = {
-        'propietario': 'Juan Perez',
-        'cedula': '1234567890',
-        'direccion': 'Calle Falsa 123',
-        'medico_responsable': 'Dr. Smith',
-        'fecha_creacion': '2023-10-01',
-        'telefono': '0987654321',
-        'nombre_paciente': 'Firulais'
-    }
+@given("tengo los números {num1:d} y {num2:d}")
+def step_given_tengo_los_numeros(context, num1, num2):
+    numeros["num1"] = num1
+    numeros["num2"] = num2
 
-@when('envío el formulario')
-def step_impl(context):
-    context.response = context.client.post('/nueva_historia', data=context.form_data)
-    assert context.response.status_code == 302
-
-@then('debería ser redirigido a la página de confirmación')
-def step_impl(context):
-    context.response = context.client.get('/historia_creada')
-    assert context.response.status_code == 200
-
-@then('debería ver el mensaje "{mensaje}"')
-def step_impl(context, mensaje):
-    assert mensaje.encode() in context.response.data
+@when("los sumo")
+def step_when_los_sumo(context):
+    global resultado
+    resultado = numeros["num1"] + numeros["num2"]
+@then("el resultado debe ser {esperado:d}")
+def step_then_el_resultado_debe_ser(context, esperado):
+    assert resultado == esperado, f"Esperado {esperado}, pero fue {resultado}"

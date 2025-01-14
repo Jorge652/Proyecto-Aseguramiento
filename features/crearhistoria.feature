@@ -1,8 +1,9 @@
-Feature: Crear una nueva historia clínica
+Feature: Suma de dos números
+  Como un usuario
+  Quiero sumar dos números
+  Para verificar que el resultado sea correcto
 
-    Scenario: Crear una nueva historia clínica con datos válidos
-        Given que estoy en la página de creación de una nueva historia clínica
-        When completo el formulario con los datos requeridos
-        And envío el formulario
-        Then debería ser redirigido a la página de confirmación
-        And debería ver el mensaje "Historia creada con éxito"
+  Scenario: Sumar dos números positivos
+    Given tengo los números 3 y 5
+    When los sumo
+    Then el resultado debe ser 8
