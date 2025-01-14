@@ -1,0 +1,49 @@
+[
+  {
+    "uri": "crearhistoria.feature",
+    "id": "suma-de-dos-números",
+    "keyword": "Feature",
+    "name": "Suma de dos números",
+    "line": 1,
+    "description": "Como un usuario\nQuiero sumar dos números\nPara verificar que el resultado sea correcto",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "Sumar dos números positivos",
+        "line": 6,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "tengo los números 3 y 5",
+            "line": 7,
+            "result": {
+              "status": "passed",
+              "duration": 0.0
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "los sumo",
+            "line": 8,
+            "result": {
+              "status": "passed",
+              "duration": 0.0
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "el resultado debe ser 8",
+            "line": 9,
+            "result": {
+              "status": "passed",
+              "duration": 0.0
+            }
+          }
+        ],
+        "tags": []
+      }
+    ],
+    "tags": []
+  }
+]

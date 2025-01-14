@@ -1,0 +1,67 @@
+[{
+  "line": 2,
+  "elements": [{
+    "start_timestamp": "2025-01-13T15:51:06.112Z",
+    "line": 4,
+    "name": "Suma de dos números",
+    "description": ["Como un usuario", "Quiero sumar dos números", "Para verificar que el resultado sea correcto"],
+    "id": "suma-de-dos-numeros",
+    "type": "feature",
+    "keyword": "Feature",
+    "steps": [{
+        "result": {
+          "status": "passed",
+          "duration": 0.0
+        },
+        "line": 7,
+        "name": "tengo los números 3 y 5",
+        "match": {
+          "location": "steps/crearhistoria.py:7",
+          "arguments": [{
+              "value": 3,
+              "name": "num1",
+              "original": "3"
+            },
+            {
+              "value": 5,
+              "name": "num2",
+              "original": "5"
+            }
+          ]
+        },
+        "keyword": "Given"
+      },
+      {
+        "result": {
+          "status": "passed",
+          "duration": 0.0
+        },
+        "line": 8,
+        "name": "los sumo",
+        "match": {
+          "location": "steps/crearhistoria.py:12",
+          "arguments": []
+        },
+        "keyword": "When"
+      },
+      {
+        "result": {
+          "status": "passed",
+          "duration": 0.0
+        },
+        "line": 9,
+        "name": "el resultado debe ser 8",
+        "match": {
+          "location": "steps/crearhistoria.py:16",
+          "arguments": [{
+            "value": 8,
+            "name": "esperado",
+            "original": "8"
+          }]
+        },
+        "keyword": "Then"
+      }
+    ],
+    "tags": []
+  }]
+}]
