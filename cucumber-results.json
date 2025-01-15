@@ -1,47 +1,447 @@
 [
   {
-    "uri": "crearhistoria.feature",
-    "id": "suma-de-dos-números",
+    "uri": "features/buscar_historia.feature",
+    "id": "buscar-historia-clínica-general",
     "keyword": "Feature",
-    "name": "Suma de dos números",
+    "name": "Buscar Historia Clínica General",
     "line": 1,
-    "description": "Como un usuario\nQuiero sumar dos números\nPara verificar que el resultado sea correcto",
+    "description": "",
     "elements": [
       {
         "keyword": "Scenario",
-        "name": "Sumar dos números positivos",
-        "line": 6,
+        "name": "Buscar una historia clínica existente",
+        "line": 4,
         "type": "scenario",
         "steps": [
           {
             "keyword": "Given ",
-            "name": "tengo los números 3 y 5",
-            "line": 7,
+            "name": "que estoy en la página de búsqueda de historia clínica",
+            "line": 5,
             "result": {
               "status": "passed",
-              "duration": 0.0
+              "duration": 3.392749786376953
             }
           },
           {
             "keyword": "When ",
-            "name": "los sumo",
+            "name": "ingreso la cédula del propietario de la historia clínica",
+            "line": 6,
+            "result": {
+              "status": "passed",
+              "duration": 0.05655956268310547
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "hago clic en el botón de buscar historia",
+            "line": 7,
+            "result": {
+              "status": "passed",
+              "duration": 0.043521881103515625
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "hago clic en el botón de \"OK\" en el cuadro de diálogo de la busqueda de historia clínica",
             "line": 8,
             "result": {
               "status": "passed",
-              "duration": 0.0
+              "duration": 0.0035126209259033203
             }
           },
           {
             "keyword": "Then ",
-            "name": "el resultado debe ser 8",
+            "name": "debería ver los resultados de la búsqueda de historias clínicas",
             "line": 9,
             "result": {
               "status": "passed",
-              "duration": 0.0
+              "duration": 2.6966042518615723
             }
           }
         ],
-        "tags": []
+        "tags": [
+          {
+            "name": "buscar_historia_derma"
+          }
+        ]
+      }
+    ],
+    "tags": []
+  },
+  {
+    "uri": "features/buscar_historia_derma.feature",
+    "id": "buscar-historia-clínica-dermatológica",
+    "keyword": "Feature",
+    "name": "Buscar Historia Clínica Dermatológica",
+    "line": 1,
+    "description": "",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "Buscar una historia clínica dermatológica existente",
+        "line": 4,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "que estoy en la página de búsqueda de historia clínica dermatológica",
+            "line": 5,
+            "result": {
+              "status": "passed",
+              "duration": 2.200273036956787
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "ingreso la cédula del propietario de la historia clínica dermatológica",
+            "line": 6,
+            "result": {
+              "status": "passed",
+              "duration": 0.05797123908996582
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "hago clic en el botón de buscar historia dermatológica",
+            "line": 7,
+            "result": {
+              "status": "passed",
+              "duration": 0.04631328582763672
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "hago clic en el botón de \"OK\" en el cuadro de diálogo de la busqueda de historia clínica dermatológica",
+            "line": 8,
+            "result": {
+              "status": "passed",
+              "duration": 0.010122537612915039
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "debería ver los resultados de la búsqueda de historias clínicas dermatológicas",
+            "line": 9,
+            "result": {
+              "status": "passed",
+              "duration": 2.9783248901367188
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "buscar_historia_derma"
+          }
+        ]
+      }
+    ],
+    "tags": []
+  },
+  {
+    "uri": "features/crear_historia.feature",
+    "id": "crear-historia-clínica",
+    "keyword": "Feature",
+    "name": "Crear Historia Clínica",
+    "line": 1,
+    "description": "",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "Crear una nueva historia clínica",
+        "line": 4,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "que estoy en la página de nueva historia clinica general",
+            "line": 5,
+            "result": {
+              "status": "passed",
+              "duration": 2.349233865737915
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "ingreso los datos de la historia clínica",
+            "line": 6,
+            "result": {
+              "status": "passed",
+              "duration": 2.0635926723480225
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "hago clic en el botón de crear historia",
+            "line": 7,
+            "result": {
+              "status": "passed",
+              "duration": 0.05239748954772949
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "hago click en el botón de \"OK\" en el cuadro de diálogo que dice \"Cédula correcta\"",
+            "line": 8,
+            "result": {
+              "status": "passed",
+              "duration": 0.0020012855529785156
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "debería ver la página de historia creada con éxito",
+            "line": 9,
+            "result": {
+              "status": "failed",
+              "duration": 0.6726715564727783
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "crear_historia"
+          }
+        ]
+      }
+    ],
+    "tags": []
+  },
+  {
+    "uri": "features/crear_historia_derma.feature",
+    "id": "crear-historia-clínica-dermatológica",
+    "keyword": "Feature",
+    "name": "Crear Historia Clínica Dermatológica",
+    "line": 1,
+    "description": "",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "Crear una nueva historia clínica dermatológica",
+        "line": 4,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "que estoy en la página de nueva historia clinica dermatológica",
+            "line": 5,
+            "result": {
+              "status": "passed",
+              "duration": 2.169728994369507
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "ingreso los datos de la historia clínica dermatológica",
+            "line": 6,
+            "result": {
+              "status": "passed",
+              "duration": 2.5259392261505127
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "hago clic en el botón de crear historia dermatológica",
+            "line": 7,
+            "result": {
+              "status": "passed",
+              "duration": 0.04876208305358887
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "hago click en el botón de \"OK\" en el cuadro de diálogo",
+            "line": 8,
+            "result": {
+              "status": "passed",
+              "duration": 1.005284309387207
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "debería ver la página de historia dermatológica creada con éxito",
+            "line": 9,
+            "result": {
+              "status": "failed",
+              "duration": 0.011280059814453125
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "crear_historia_derma"
+          }
+        ]
+      }
+    ],
+    "tags": []
+  },
+  {
+    "uri": "features/editar_historia.feature",
+    "id": "editar-historia-clínica-general",
+    "keyword": "Feature",
+    "name": "Editar Historia Clínica General",
+    "line": 1,
+    "description": "",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "Editar el nombre de un medicamento en una historia clínica general",
+        "line": 4,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "que estoy en la página de edición de la historia clínica general con ID 4",
+            "line": 5,
+            "result": {
+              "status": "passed",
+              "duration": 2.2635855674743652
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "cambio el nombre del medicamento 1 a \"Nuevo Medicamento\"",
+            "line": 6,
+            "result": {
+              "status": "passed",
+              "duration": 0.09119582176208496
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "hago clic en el botón de actualizar historia",
+            "line": 7,
+            "result": {
+              "status": "passed",
+              "duration": 0.35992860794067383
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "debería ver la página de historia actualizada con éxito",
+            "line": 8,
+            "result": {
+              "status": "passed",
+              "duration": 3.1803150177001953
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "editar_historia"
+          }
+        ]
+      }
+    ],
+    "tags": []
+  },
+  {
+    "uri": "features/editar_historia_derma.feature",
+    "id": "editar-historia-clínica-dermatológica",
+    "keyword": "Feature",
+    "name": "Editar Historia Clínica Dermatológica",
+    "line": 1,
+    "description": "",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "Editar el nombre de un medicamento en una historia clínica dermatológica",
+        "line": 4,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "que estoy en la página de edición de la historia clínica dermatológica con ID 1",
+            "line": 5,
+            "result": {
+              "status": "passed",
+              "duration": 2.231154441833496
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "cambio el nombre del medicamento 1 a \"Nuevo Medicamento Dermatológico\"",
+            "line": 6,
+            "result": {
+              "status": "passed",
+              "duration": 0.12366294860839844
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "hago clic en el botón de actualizar historia",
+            "line": 7,
+            "result": {
+              "status": "passed",
+              "duration": 0.7547531127929688
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "debería ver la página de historia actualizada con éxito",
+            "line": 8,
+            "result": {
+              "status": "passed",
+              "duration": 3.1946592330932617
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "editar_historia_derma"
+          }
+        ]
+      }
+    ],
+    "tags": []
+  },
+  {
+    "uri": "features/mostrar_historias.feature",
+    "id": "mostrar-todas-las-historias-disponibles",
+    "keyword": "Feature",
+    "name": "Mostrar Todas las Historias Disponibles",
+    "line": 1,
+    "description": "",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "Ver todas las historias clínicas disponibles",
+        "line": 4,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "que estoy en la página de inicio",
+            "line": 5,
+            "result": {
+              "status": "passed",
+              "duration": 2.3273274898529053
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "hago clic en el botón de \"Mostrar Todas las Historias Disponibles\"",
+            "line": 6,
+            "result": {
+              "status": "passed",
+              "duration": 0.9697380065917969
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "debería ver la página con todas las historias clínicas disponibles",
+            "line": 7,
+            "result": {
+              "status": "passed",
+              "duration": 2.107347249984741
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "mostrar_historias"
+          }
+        ]
       }
     ],
     "tags": []
