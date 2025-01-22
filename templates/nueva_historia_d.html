@@ -12,12 +12,12 @@
     <form method="POST" action="{{ url_for('nueva_historia_d') }}" onsubmit="return validateForm()">
         Médico Responsable: <input type="text" name="medico_responsable_d" value="{{ request.form.medico_responsable_d or '' }}" required><br><br>
         Propietario: <input type="text" name="propietario_d" value="{{ request.form.propietario_d or '' }}" required>
-        Fecha de Creación: <input type="date" name="fecha_creacion_d" value="{{ request.form.fecha_creacion_d or '' }}" required><br><br>
+        Fecha de Creación: <input type="date" name="fecha_creacion_d" value="{{ request.form.fecha_creacion_d or '' }}"><br><br>
         Cédula: <input type="text" name="cedula_d" id="cedula_d" value="{{ request.form.cedula_d or '' }}" required>
         <span id="cedulaError" style="color: red;"></span><br><br>Dirección: <input type="text" name="direccion_d" value="{{ request.form.direccion_d or '' }}" required><br><br>
         Teléfono: <input type="text" name="telefono_d" value="{{ request.form.telefono_d or '' }}"  required><br><br>
         Nombre del Paciente: <input type="text" name="nombre_paciente_d" value="{{ request.form.nombre_paciente_d or '' }}" required>
-        Fecha de Nacimiento: <input type="date" name="fecha_nacimiento_d" value="{{ request.form.fecha_nacimiento_d or '' }}" required><br><br>
+        Fecha de Nacimiento: <input type="date" name="fecha_nacimiento_d" value="{{ request.form.fecha_nacimiento_d or '' }}"><br><br>
         Especie: 
         <select name="especie_d" required>
             <option value="Perro">Perro</option>
