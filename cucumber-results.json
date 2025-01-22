@@ -19,7 +19,7 @@
             "line": 5,
             "result": {
               "status": "passed",
-              "duration": 3.392749786376953
+              "duration": 2.1474716663360596
             }
           },
           {
@@ -28,7 +28,7 @@
             "line": 6,
             "result": {
               "status": "passed",
-              "duration": 0.05655956268310547
+              "duration": 0.06566405296325684
             }
           },
           {
@@ -37,7 +37,7 @@
             "line": 7,
             "result": {
               "status": "passed",
-              "duration": 0.043521881103515625
+              "duration": 0.04300498962402344
             }
           },
           {
@@ -46,7 +46,7 @@
             "line": 8,
             "result": {
               "status": "passed",
-              "duration": 0.0035126209259033203
+              "duration": 0.003000974655151367
             }
           },
           {
@@ -55,7 +55,7 @@
             "line": 9,
             "result": {
               "status": "passed",
-              "duration": 2.6966042518615723
+              "duration": 2.920279026031494
             }
           }
         ],
@@ -88,7 +88,7 @@
             "line": 5,
             "result": {
               "status": "passed",
-              "duration": 2.200273036956787
+              "duration": 6.008495569229126
             }
           },
           {
@@ -97,7 +97,7 @@
             "line": 6,
             "result": {
               "status": "passed",
-              "duration": 0.05797123908996582
+              "duration": 0.09508180618286133
             }
           },
           {
@@ -106,7 +106,7 @@
             "line": 7,
             "result": {
               "status": "passed",
-              "duration": 0.04631328582763672
+              "duration": 0.045006513595581055
             }
           },
           {
@@ -115,7 +115,7 @@
             "line": 8,
             "result": {
               "status": "passed",
-              "duration": 0.010122537612915039
+              "duration": 0.003000974655151367
             }
           },
           {
@@ -124,7 +124,7 @@
             "line": 9,
             "result": {
               "status": "passed",
-              "duration": 2.9783248901367188
+              "duration": 2.7814266681671143
             }
           }
         ],
@@ -157,7 +157,7 @@
             "line": 5,
             "result": {
               "status": "passed",
-              "duration": 2.349233865737915
+              "duration": 2.0951390266418457
             }
           },
           {
@@ -166,7 +166,7 @@
             "line": 6,
             "result": {
               "status": "passed",
-              "duration": 2.0635926723480225
+              "duration": 1.5004417896270752
             }
           },
           {
@@ -175,25 +175,16 @@
             "line": 7,
             "result": {
               "status": "passed",
-              "duration": 0.05239748954772949
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "hago click en el botón de \"OK\" en el cuadro de diálogo que dice \"Cédula correcta\"",
-            "line": 8,
-            "result": {
-              "status": "passed",
-              "duration": 0.0020012855529785156
+              "duration": 0.040010690689086914
             }
           },
           {
             "keyword": "Then ",
-            "name": "debería ver la página de historia creada con éxito",
-            "line": 9,
+            "name": "hago click en el botón de \"OK\" en el cuadro de diálogo que dice \"Cédula correcta\"",
+            "line": 8,
             "result": {
-              "status": "failed",
-              "duration": 0.6726715564727783
+              "status": "passed",
+              "duration": 0.0040013790130615234
             }
           }
         ],
@@ -226,7 +217,7 @@
             "line": 5,
             "result": {
               "status": "passed",
-              "duration": 2.169728994369507
+              "duration": 2.185289144515991
             }
           },
           {
@@ -235,7 +226,7 @@
             "line": 6,
             "result": {
               "status": "passed",
-              "duration": 2.5259392261505127
+              "duration": 2.3772759437561035
             }
           },
           {
@@ -244,25 +235,16 @@
             "line": 7,
             "result": {
               "status": "passed",
-              "duration": 0.04876208305358887
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "hago click en el botón de \"OK\" en el cuadro de diálogo",
-            "line": 8,
-            "result": {
-              "status": "passed",
-              "duration": 1.005284309387207
+              "duration": 0.039754390716552734
             }
           },
           {
             "keyword": "Then ",
-            "name": "debería ver la página de historia dermatológica creada con éxito",
-            "line": 9,
+            "name": "hago click en el botón de \"OK\" en el cuadro de diálogo",
+            "line": 8,
             "result": {
-              "status": "failed",
-              "duration": 0.011280059814453125
+              "status": "passed",
+              "duration": 1.0056695938110352
             }
           }
         ],
@@ -295,7 +277,7 @@
             "line": 5,
             "result": {
               "status": "passed",
-              "duration": 2.2635855674743652
+              "duration": 2.2926578521728516
             }
           },
           {
@@ -304,7 +286,7 @@
             "line": 6,
             "result": {
               "status": "passed",
-              "duration": 0.09119582176208496
+              "duration": 0.10072112083435059
             }
           },
           {
@@ -313,7 +295,7 @@
             "line": 7,
             "result": {
               "status": "passed",
-              "duration": 0.35992860794067383
+              "duration": 0.37670302391052246
             }
           },
           {
@@ -322,7 +304,7 @@
             "line": 8,
             "result": {
               "status": "passed",
-              "duration": 3.1803150177001953
+              "duration": 3.1536943912506104
             }
           }
         ],
@@ -355,7 +337,7 @@
             "line": 5,
             "result": {
               "status": "passed",
-              "duration": 2.231154441833496
+              "duration": 2.217081308364868
             }
           },
           {
@@ -364,7 +346,7 @@
             "line": 6,
             "result": {
               "status": "passed",
-              "duration": 0.12366294860839844
+              "duration": 0.13756656646728516
             }
           },
           {
@@ -373,7 +355,7 @@
             "line": 7,
             "result": {
               "status": "passed",
-              "duration": 0.7547531127929688
+              "duration": 0.354719877243042
             }
           },
           {
@@ -382,7 +364,7 @@
             "line": 8,
             "result": {
               "status": "passed",
-              "duration": 3.1946592330932617
+              "duration": 3.2388827800750732
             }
           }
         ],
@@ -415,7 +397,7 @@
             "line": 5,
             "result": {
               "status": "passed",
-              "duration": 2.3273274898529053
+              "duration": 2.1585335731506348
             }
           },
           {
@@ -424,7 +406,7 @@
             "line": 6,
             "result": {
               "status": "passed",
-              "duration": 0.9697380065917969
+              "duration": 0.680344820022583
             }
           },
           {
@@ -433,7 +415,7 @@
             "line": 7,
             "result": {
               "status": "passed",
-              "duration": 2.107347249984741
+              "duration": 2.132826089859009
             }
           }
         ],
